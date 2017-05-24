@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../image/larisa.jpg');
+
+    /* Full height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxx {
+    /* The image used */
+    background-image: url('../image/kicsi.jpg');
+
+    /* Full height */
+    height: 600px;
+    border-radius: 30px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*background: #ededed;*/
+.post-date {
+  background-color: #5DD39E;
+  padding: 4px;
+  margin: 3px 0;
+  display: block;
+}
